@@ -1,0 +1,16 @@
+PS C:\Users\User\OneDrive\デスクトップ\work\git_challenge> git init
+Initialized empty Git repository in C:/Users/User/OneDrive/デスクトップ/work/git_challenge/.git/
+PS C:\Users\User\OneDrive\デスクトップ\work\git_challenge> echo "Hello, world!" >> hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\work\git_challenge> git add .
+PS C:\Users\User\OneDrive\デスクトップ\work\git_challenge> git commit -m "hello_worldを追加" 
+[main (root-commit) a752590] hello_worldを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\work\git_challenge> echo "こんにちは、世界！"　>> .\hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\work\git_challenge> git add .
+PS C:\Users\User\OneDrive\デスクトップ\work\git_challenge> git commit -m "日本語訳を追記"
+[main 11e0903] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\User\OneDrive\デスクトップ\work\git_challenge> git log --oneline
+11e0903 (HEAD -> main) 日本語訳を追記
+a752590 hello_worldを追加
